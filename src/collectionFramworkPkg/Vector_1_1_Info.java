@@ -35,24 +35,4 @@ in the specified Collection to the end of this Vector. –we can copy ArrlyList va
 
 public class Vector_1_1_Info {
 	
-	public static void main(String args[]){  
-		Vector v=new Vector<String>();  
-		v.add("Sohag");//Adding object 
-		 
-		
-		
-		
-		v.add(0, "rerer");
-		v.addElement("djfljfs");
-	
-		Iterator<String> itr=v.iterator();  
-		while(itr.hasNext()){  
-		System.out.println(itr.next());  
-		}
-		System.out.println(v.capacity());
-		System.out.println(v.size());
-		System.out.println(v.indexOf("rerer"));
-		
-		
-
-}}
+	}

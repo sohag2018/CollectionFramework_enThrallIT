@@ -15,6 +15,19 @@ public class ArrayList_2_HeterogeneousElementsInArrayList {
 		ar1.add(33333);
 		ar1.add(33333);
 		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
+		ar1.add("");
 		
 		
 		//iterator() for looping

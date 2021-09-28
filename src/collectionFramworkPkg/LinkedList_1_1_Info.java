@@ -1,7 +1,7 @@
 package collectionFramworkPkg;
 
 /*
-LinkedList implements the Collection interface. 
+LinkedList implements the List,Collection interface. 
 It uses a doubly linked list internally to store the elements. 
 It can store the duplicate elements. 
 It maintains the insertion order 
