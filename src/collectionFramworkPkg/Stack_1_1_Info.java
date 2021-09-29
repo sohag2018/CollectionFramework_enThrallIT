@@ -6,7 +6,7 @@ import java.util.Stack;
 /*
 The stack is the subclass of Vector. 
 models and implements Stack data structure
-It implements the last-in-first-out data structure, i.e., Stack. 
+It implements the last-in-first-out data structure, i.e., Stack. by using search() we can see the position based -1 policy
 The stack contains all of the methods of Vector class and also provides its methods like boolean push(), boolean peek(), boolean push(object o), which defines its properties.
 Methods in Stack class
 1.Object push(Object element) :🡪to Add element (Pushes an element on the top of the stack.)
@@ -18,7 +18,13 @@ Methods in Stack class
 
 public class Stack_1_1_Info {
 	
-
+	
+	
+	
+	
+	
+	
+	}
 
 		
 		
@@ -28,4 +34,4 @@ public class Stack_1_1_Info {
 	
 	
 	
-}
+

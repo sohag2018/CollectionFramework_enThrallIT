@@ -21,6 +21,25 @@ public class ArrayList_4_CustomizedGenericType {
 		ar.add(st1);
 		ar.add(st2);
 		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
+		ar.add(st3);
 		
 		//checking the size of the ArrayList
 		System.out.println(ar.size());
