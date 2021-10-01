@@ -2,31 +2,30 @@ package collectionFramworkPkg;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Iterator;
 
 public class Queue_05_DeQueuImpArrayDeque {
 
 	public static void main(String[] args) {
 		Deque<String> dq=new ArrayDeque<>();
-		dq.add("Sohag");//adding element
-		dq.push("Boby");//alternate way of adding
+		dq.add("Sohag");//adding element at bottom
+		dq.add("Sharif");//adding element at bottom
+		dq.push("Boby");//alternate way of adding but at top
 		dq.push("Kamran");//alternate way of adding
-		dq.push("YYYY");//alternate way of adding
+		dq.addFirst("Nayon");//alternate way of adding--adding at top
+		dq.addLast("Boni");//alternate way of adding--adding at top
 		
-		//Need to make sure Deque works as LIFO or FIFO
-		//it will return top element
-		System.out.println(dq.element());
-		System.out.println(dq.peek());
-		
-		//removing top
-		System.out.println(dq.remove());
-		
-		System.out.println(dq.removeFirst());
+		//Nayon-Kamran-Boby-Sohag-Sharif-Boni
 		
 		System.out.println(dq);
 		
-		for(String s:dq) {
-			System.out.println(s);
+		Iterator<String> it=dq.iterator();
+		while(it.hasNext()) {
+		System.out.println(it.next());
 		}
+		
+		
+		
 		
 	}
 

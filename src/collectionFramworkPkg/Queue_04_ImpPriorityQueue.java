@@ -7,13 +7,14 @@ import java.util.Queue;
 public class Queue_04_ImpPriorityQueue {
 
 	public static void main(String[] args) {
-		Queue<String> q=new PriorityQueue<>();
-		q.add("Sohag");
-		q.add("Boby");
-		q.add("Kamran");
-		q.add("Noyan");
-		q.add("Boni");
-		q.add("Shakir");
+		Queue<Character> q=new PriorityQueue<>();
+		q.add('a'); //
+		q.add('b');//15
+		q.add('c');//13
+		q.add('d');//11
+		
+		System.out.println(q.peek());
+		
 		
 		
 		//as per priority basis here it will print --bases AscII table
