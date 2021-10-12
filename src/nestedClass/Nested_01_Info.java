@@ -80,6 +80,6 @@ Rules for Java Local Inner class
 
 
 
-public class Info {
+public class Nested_01_Info {
 
 }
